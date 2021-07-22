@@ -1,0 +1,21 @@
+<root>
+    <to>user id</to>
+    <time>1626941727</time>
+    <age>1627</age>
+    <params>
+        <additional>
+            <subgroup>group1&val2</subgroup>
+            <subgroup>grou4544p1&val3</subgroup>
+            <subgroup>group1&val4</subgroup>
+        </additional>
+        <click>click1</click>
+        <click>click2</click>
+        <click>click3</click>
+    </params>
+    <note>
+        <to>Tove</to>
+        <from>Jani</from>
+        <heading>Reminder</heading>
+        <body>Don't forget me this weekend!</body>
+    </note>
+</root>
