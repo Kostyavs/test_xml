@@ -26,6 +26,7 @@ def xml_to_dict2(text_gen):
             for string2 in text_gen:
                 if re.search(r'</' + key + '>', string2):
                     new_gen = my_text_gen(value_list)
+                    value_list = []
                     dictionary[key] = xml_to_dict2(new_gen)
                     break
                 else:
